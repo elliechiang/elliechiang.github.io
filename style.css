@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+*{
+    font-family: "Noto Sans TC", "微軟正黑體", "sans-serif";
+    box-sizing: border-box;
+    position: relative;
+}
+
+body,
+html {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 16px;
+    background-color: #3B5572;
+    background-image: url(images/karina-vorozheeva-1431684-unsplash.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.content>p{
+    color: #3E4143;
+}
+
+.container{
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.top{
+    font-size: 0;
+    display: table;
+    margin: auto;
+    box-shadow: 3px 0px 3px rgba(0,0,0,0.5);
+}
+
+.top-left{
+    width: 500px;
+    height: 430px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(images/DSC_0036.jpg);
+    -webkit-background-size: cover;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: -80px;
+}
+
+.top-right{
+    background-color: #F6F6F6;
+    width: 500px;
+    display: inline-block;
+    height: 430px;
+    vertical-align: top;
+/*    text-align: center;*/
+    padding: 40px 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E4143;
+}
+
+.top-right>img{
+    display: block;
+    margin: 0 auto;
+}
+
+.top-right p{
+    text-align: left;
+}
+
+.top-right a img{
+    margin-right: 4px;
+}
+
+.top-right a:first-of-type img{
+    margin-left: 8px;
+}
+
+.top-right p span{
+    font-weight: 500;
+    color: #F8BD57;
+}
+
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: #F8BD57;
+    margin: 20px 0 10px;
+}
+
+.resume{
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 20px 0px 50px rgba(0,0,0,0.5);
+    position: relative;
+/*    margin-top: -20px;*/
+}
+
+.content{
+    width: 900px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.title{
+    background-color: #F6F6F6;
+    margin: 60px 0 30px;
+    padding: 5px 40px;
+    border-radius: 25px;
+}
+
+.title h3{
+    color: #F8BD57;
+    font-size: 24px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title img{
+    margin-left: 10px;
+}
+
+.title:first-of-type{
+    margin-top: 0;
+}
+
+.content p{
+    margin: 0;
+    padding: 0 40px;
+}
+
+.graphic,
+.web{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 0 30px;
+}
+
+.web{
+    margin-top: 20px;
+}
+
+.circle-fill,
+.circle-bd{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-right: 20px;
+}
+
+.circle-fill{
+    background-color: #F8BD57;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    box-shadow: 10px 0 0 rgba(248,189,87,0.45);
+}
+
+.circle-bd{
+    border: solid 1px #F8BD57;
+    color: #F8BD57;
+    font-weight: bold;
+}
+
+.ex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    color: #3E4143;
+}
+
+.company{
+    -webkit-flex: 3;
+    -moz-flex: 3;
+    -ms-flex: 3;
+    -o-flex: 3;
+    flex: 3;
+}
+
+.work{
+    -webkit-flex: 7;
+    -moz-flex: 7;
+    -ms-flex: 7;
+    -o-flex: 7;
+    flex: 7;
+}
+
+
+
+
+
+
